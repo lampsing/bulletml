@@ -8,9 +8,13 @@
 
 <action label="top">
 <repeat>
-<times>10+$rank*70</times>
+	<times>10+$rank*70</times>
 <action>
-<fire><direction type="aim">$rand*30-74+$rank*2</direction><speed>0.5+$rank*2</speed><bullet/></fire>
+<fire>
+	<direction type="aim">$rand*30-74+$rank*2</direction>
+	<speed>0.5+$rank*2</speed>
+	<bullet/>
+</fire>
 <fireRef label="n"/>
 <fireRef label="n"/>
 <fireRef label="n"/>
@@ -36,7 +40,9 @@
 </action>
 
 <fire label="n">
-<direction type="sequence">$rand*2+7-$rank*2</direction><speed>0.5+$rank*2</speed><bullet/>
+	<direction type="sequence">$rand*2+7-$rank*2</direction>
+	<speed>0.5+$rank*2</speed>
+	<bullet/>
 </fire>
 
 
